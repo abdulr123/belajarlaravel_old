@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.main')
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posts Abdul Rahman Blog</title>
-</head>
-
-<body>
-    <h1>Halaman Post</h1>
-</body>
-
-</html>
+@section('container')
+<h1>Halaman Post</h1>
+@endsection
