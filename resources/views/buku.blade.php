@@ -1,5 +1,5 @@
 @extends('layouts.main')
 
 @section('container')
-<h1>Halaman Post</h1>
+<h1>Halaman Detail Buku</h1>
 @endsection

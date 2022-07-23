@@ -25,8 +25,8 @@ Route::get('/about', function () {
     ]);
 });
 
-Route::get('/blog', function () {
-    return view('posts', [
-        "title" => "Blog"
+Route::get('/buku', function () {
+    return view('buku', [
+        "title" => "Buku"
     ]);
 });
