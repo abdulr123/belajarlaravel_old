@@ -1,1 +1,1 @@
-Belajar membuat portfolio dengan Laravel 9
+Belajar membuat konsep CRUD dengan Laravel 9

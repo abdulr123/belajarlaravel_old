@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> ARP | {{ $title }} </title>
-    <link rel="stylesheet" type="text/css" href=" {{ ('bootstrap5/css/bootstrap.min.css') }} ">
+    
+    <link rel="stylesheet" href=" {{ asset('bootstrap5/css/bootstrap.min.css') }} " />
 
 </head>
 
@@ -17,7 +18,7 @@
         @yield('container')
     </div>
 
-    <script src=" {{ ('boostrap5/js/bootstrap.min.js') }} "></script>
+    <script src=" {{ asset('boostrap5/js/bootstrap.min.js') }} "></script>
 
 </body>
 

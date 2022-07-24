@@ -1,7 +1,10 @@
 <?php
 
+
 use App\Http\Controllers\BukuController;
 use Illuminate\Support\Facades\Route;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 
 Route::get('/', function () {
     return view('home', [
@@ -27,3 +31,5 @@ Route::get('/about', function () {
 });
 
 Route::get('/buku', [BukuController::class, 'index']);
+Route::get('/buku/create', [BukuController::class, 'create']);
+Route::post('/buku/save', [BukuController::class, 'save']);
