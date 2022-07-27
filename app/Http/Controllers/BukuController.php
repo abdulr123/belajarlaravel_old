@@ -48,4 +48,11 @@ class BukuController extends Controller
         $buku->update($request->except(['_token', 'submit']));
         return redirect('/buku');
     }
+
+    public function destroy($id)
+    {
+        $buku = Buku::find($id);
+        $buku->delete();
+        return redirect('/buku');
+    }
 }

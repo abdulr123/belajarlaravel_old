@@ -24,8 +24,16 @@
         <td>{{ $b->penerbit }}</td>
         <td>{{ $b->tahun_terbit }}</td>
         <td>
-            <a href="/buku/{{ $b->id }}/edit"class="btn btn-warning">Edit</a>
-            <a href="#"class="btn btn-danger">Hapus</a>
+            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                
+                    <a href="/buku/{{ $b->id }}/edit"class="btn btn-warning me-2 mb-1">Edit</a> 
+                
+                    <form action="/buku/{{ $b->id }}" method="POST">
+                        @csrf
+                        <input type="submit" class="btn btn-danger" value="Hapus">
+                    </form>
+                
+            </div>
         </td>
     </tr>
     
