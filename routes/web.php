@@ -33,3 +33,5 @@ Route::get('/about', function () {
 Route::get('/buku', [BukuController::class, 'index']);
 Route::get('/buku/create', [BukuController::class, 'create']);
 Route::post('/buku/save', [BukuController::class, 'save']);
+Route::get('/buku/{id}/edit', [BukuController::class, 'edit']);
+Route::post('/buku/{id}', [BukuController::class, 'update']);

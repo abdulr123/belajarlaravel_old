@@ -32,4 +32,20 @@ class BukuController extends Controller
         Buku::create($request->except(['_token', 'submit']));
         return redirect('/buku');
     }
+
+    public function edit($id)
+    {
+        $data = [
+            'title' => "Edit Data Buku",
+            'buku'  => Buku::find($id)
+        ];
+        return view('buku.edit')->with($data);
+    }
+
+    public function update($id, Request $request)
+    {
+        $buku = Buku::find($id);
+        $buku->update($request->except(['_token', 'submit']));
+        return redirect('/buku');
+    }
 }

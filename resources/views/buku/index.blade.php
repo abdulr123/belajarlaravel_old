@@ -24,7 +24,7 @@
         <td>{{ $b->penerbit }}</td>
         <td>{{ $b->tahun_terbit }}</td>
         <td>
-            <a href="#"class="btn btn-warning">Edit</a>
+            <a href="/buku/{{ $b->id }}/edit"class="btn btn-warning">Edit</a>
             <a href="#"class="btn btn-danger">Hapus</a>
         </td>
     </tr>
