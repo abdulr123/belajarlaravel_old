@@ -18,7 +18,7 @@
         @yield('container')
     </div>
 
-    <script src=" {{ asset('boostrap5/js/bootstrap.min.js') }} "></script>
+    <script src=" {{ asset('bootstrap5/js/bootstrap.min.js') }} "></script>
 
 </body>
 
