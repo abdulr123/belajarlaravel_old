@@ -11,3 +11,9 @@ Belajar membuat konsep CRUD dengan Laravel 9
 **UPDATE DATA**
 
 ![image](https://user-images.githubusercontent.com/48147326/181144521-c6d1d93b-dfa7-4559-9613-7c5d2a5d4fb0.png)
+
+**LOGIN**
+![image](https://user-images.githubusercontent.com/48147326/181782658-a2070f8d-8230-4b8b-bf86-d6c757a6c4ef.png)
+
+**REGISTER**
+![image](https://user-images.githubusercontent.com/48147326/181782786-c983ef60-547a-46f9-8a8e-e30a599c4a4c.png)
